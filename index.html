@@ -1,29 +1,79 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Your Name — Developer Portfolio</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio | Your Name</title>
 
-  <!-- Bootstrap 5 CSS (CDN) -->
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Bootstrap CDN -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
 
-  <!-- Font Awesome (icons) -->
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-
-  <!-- Your custom styles -->
-  <link rel="stylesheet" href="css/style.css">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-  <main class="container py-5">
-    <h1 class="display-5 mb-3">Hello — I am <strong>Moazzam Mushtaq</strong></h1>
-    <p class="lead">A front-end developer building modern, responsive websites.</p>
-  </main>
 
-  <!-- Bootstrap JS Bundle (Popper included) -->
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+<!-- ✅ Navbar -->
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container">
+        <a class="navbar-brand" href="#">My Portfolio</a>
+        
+        <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#menu">
+            <span class="navbar-toggler-icon"></span>
+        </button>
 
-  <!-- Your custom JS -->
-  <script src="js/script.js"></script>
+        <div class="collapse navbar-collapse" id="menu">
+            <ul class="navbar-nav ms-auto">
+                <li class="nav-item"><a class="nav-link" href="#">Home</a></li>
+                <li class="nav-item"><a class="nav-link" href="#">About</a></li>
+                <li class="nav-item"><a class="nav-link" href="#">Skills</a></li>
+                <li class="nav-item"><a class="nav-link" href="#">Projects</a></li>
+                <li class="nav-item"><a class="nav-link" href="#">Contact</a></li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<!-- ✅ Hero Section -->
+<section class="text-center p-5 bg-light">
+    <h1>Hello, I'm <span>Your Name</span></h1>
+    <p>Front-End Developer | Learning Day by Day</p>
+    <button class="btn btn-primary">Hire Me</button>
+</section>
+
+<!-- ✅ About Section -->
+<section class="container p-5">
+    <h2>About Me</h2>
+    <p>Write a short introduction about yourself here.</p>
+</section>
+
+<!-- ✅ Skills Section -->
+<section class="container p-5">
+    <h2>Skills</h2>
+    <p>HTML, CSS, JavaScript, Bootstrap (More coming soon)</p>
+</section>
+
+<!-- ✅ Projects Section -->
+<section class="container p-5">
+    <h2>Projects</h2>
+    <p>Projects will be added soon...</p>
+</section>
+
+<!-- ✅ Contact Section -->
+<section class="container p-5">
+    <h2>Contact</h2>
+    <p>Email: yourname@email.com</p>
+</section>
+
+<!-- ✅ Footer -->
+<footer class="text-center p-3 bg-light">
+    <p>© 2025 Your Name</p>
+</footer>
+
+<!-- Bootstrap JS -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+
+<!-- Custom JS -->
+<script src="js/script.js"></script>
 </body>
 </html>
