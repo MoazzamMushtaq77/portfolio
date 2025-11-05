@@ -1,4 +1,68 @@
-/* Simple starter styles */
+:root {
+  --primary: #0d6efd;
+  --accent: #00bcd4;
+  --dark: #1a1a1a;
+  --light: #ffffff;
+  --bg-light: #f8f9fa;
+
+  --font-main: 'Poppins', sans-serif;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: var(--font-main);
+  background: var(--bg-light);
+  color: var(--dark);
+}
+
+.navbar {
+  padding: 15px 0;
+}
+
+.navbar-brand {
+  font-weight: 600;
+  font-size: 22px;
+}
+
+.nav-link {
+  margin-left: 20px;
+  font-weight: 500;
+  transition: 0.3s;
+}
+
+.nav-link:hover {
+  color: var(--primary) !important;
+}
+
+section {
+  padding: 80px 0;
+}
+
+section.text-center {
+  background: var(--light);
+}
+
+section h1 span {
+  color: var(--primary);
+  font-weight: 600;
+}
+
+.btn-primary {
+  background: var(--primary);
+  border: none;
+  padding: 10px 25px;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+
+/* Simple starter styles
 :root{
   --primary: #0d6efd;
   --bg: #ffffff;
@@ -15,4 +79,4 @@ body{
 
 main h1 strong{
   color: var(--primary);
-}
+} */
